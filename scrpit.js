@@ -11,8 +11,8 @@ $(document).ready(function() {
 
 
 $(document).ready(function(){
-    $("but").click(function(){
-        $(".but-2").hide();
+    $("#button1").click(function(){
+        $("button3").hide();
       });
 
     });
@@ -21,8 +21,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
-$("but-1").click(function(){
-    $(".but-2").show();
+$("button2").click(function(){
+    $("button3").show();
   });
 
 });
